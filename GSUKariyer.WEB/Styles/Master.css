@@ -1,0 +1,66 @@
+/* MASTER CSS */
+
+body { background: #FFF url('../Images/Screen/Back.jpg') no-repeat top center; margin: 13px 0 0; text-align: center; }
+ins { clear: both; display: block; height: 0; width: 100%; }
+div { color: #055862; font: normal 11px Tahoma; }
+dfn { color: #9fb5b8; font-style: normal; }
+a { color: #055862; outline: none; text-decoration: none; }
+a:hover { color: #000; }
+h1 { color: #2ca0f1; float: right; font: normal 22px Arial; margin: 0; padding: 0; }
+h2 { background: #ff5959; color: #FFF; font: bold 12px Trebuchet Ms; padding: 7px 15px; display: inline; }
+h3 { font: normal 20px Trebuchet Ms; margin: 0; padding: 0; }
+h4 { background: #fbfec3; border-left: solid 2px #ffbd3e; color: #000; font: normal 12px Trebuchet Ms; padding: 12px; display: inline; }
+
+.Container { margin: 0 auto; width: 987px; }
+.Logo { background: url('../Images/Screen/GsuLogo.png') no-repeat top left; float: left; height: 88px; width: 179px; text-indent: -99999px; }
+
+
+.LoginArea { float: right; text-align: right; padding-top: 10px; }
+.LoginAreaOff ins { height: 10px; }
+.LoginAreaOff a { background-color: #FFF; color: #000; display: block; float: right; font: bold 12px Tahoma; padding: 11px 18px; text-decoration: none; opacity: 0.80; FILTER: alpha(opacity:80); }
+.LoginAreaOff a:hover { color: #135d92; text-decoration: underline; opacity: 1; filter: alpha(opacity:100); }
+.LoginAreaOff .aLogin { background: #FFF url('../Images/Global/RedArrow.gif') no-repeat 11px center; margin-right: 1px; padding-left: 45px; }
+.LoginAreaOff .aCompany { background: #FFF url('../Images/Global/CompanyIcon.gif') no-repeat 18px center; padding-left: 45px; }
+
+.LoginAreaOn { margin-top: 16px; }
+.LoginAreaOn ins { height: 7px; }
+.LoginAreaOn img { float: right; border: solid 1px #FFF; margin-left: 5px; height: 50px; }
+.LoginAreaOn div { float: right; }
+.LoginAreaOn div.LoginAreaOnInfo, .LoginAreaOn div a { background-color: #FFF; padding: 5px 10px; margin: 0 2px; }
+.LoginAreaOn div a { display: block; float: right; opacity: 0.75; filter: alpha(opacity=75); }
+.LoginAreaOn div a:hover { background-color: #38022c; color: #FFF; opacity: 1; filter: alpha(opacity=100); }
+
+
+.SearchBar { height: 28px; margin-bottom: 22px; padding-top: 22px;}
+.SearchBar div { color: #FFF; height: 37px; }
+.SearchBar a { border-bottom: dotted 1px #fbfbe4; color: #FFF; text-decoration: none; }
+.SearchBar a:hover { border-bottom: dotted 1px #f9f461; color: #f9f461; }
+.SearchBarLeft { background: url('../Images/SearchBar/Left.jpg') no-repeat top left; float: left; width: 9px; }
+.SearchBarRight { background: url('../Images/SearchBar/Right.jpg') no-repeat top right; float: right; width: 9px; }
+.SearchBarContent { background: url('../Images/SearchBar/Back.jpg') repeat-x; display: block; float: left; width: 969px; }
+.SearchBarContentTitle { float: left; font: normal 14px Arial; width: 122px; padding: 10px 10px 0 0; text-align: right; }
+.SearchBarContentDetail { float: right; width: 121px; padding: 12px 0; }
+.SearchBarContentForm { float: left; width: 715px; padding: 5px 0; }
+.SearchBarContentForm input[type="text"] { float: left; margin-right: 4px; width: 300px; }
+
+.SearchBarContentForm div { display: inline; float: left; }
+.SearchBarContentForm div select { float: left; width: 166px; }
+
+
+.Left { float: left; display: inline; margin-right: 9px; width: 133px; text-align: right; }
+
+.Nav { float: right; margin-bottom: 20px; }
+.Nav div { clear: both; }
+.Nav a { background: #38022c; clear: both; color: #FFF; float: right; font: normal 11px Tahoma; padding: 5px 7px 5px 10px; margin: 1px 0; white-space: nowrap; }
+.Nav a:hover { background-color: #000; color: #FFF;}
+.Nav a.NavFl { background: none; clear: both; color: #910b73; float: right; font: normal 16px Arial; padding: 0; }
+.Nav a.NavFl:hover { color: #100109; }
+
+
+.Survey { float: right; } 
+.Survey ins { height: 5px; }
+
+
+.Footer { color: #a0b6b9; display: block; margin-top: 40px; padding: 0 0 40px 0; text-align: left; }
+.Footer a { color: #a0b6b9; text-decoration: none; }
+.Footer a:hover { color: #055862; }

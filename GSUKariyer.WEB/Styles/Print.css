@@ -1,0 +1,3 @@
+﻿body { background-image: none; margin: 0; padding: 0; text-align: left; }
+.Container { margin: 20px; }
+.Left, .SearchBar, .Form, .LoginArea, .Banner, .Footer, h1, .Print { display: none; }

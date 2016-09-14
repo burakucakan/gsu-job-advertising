@@ -1,0 +1,7 @@
+﻿.Paging { color: #635c5c; padding: 0 10px; }
+.Paging select { display: inline; padding: 0; margin:  0; }
+.Paging span { font-weight: bold; font-size: 13px; padding-right: 100px; }
+
+.PagingNav { float: right; color: #635c5c; }
+.PagingNav a { color: #635c5c; text-decoration: underline; }
+.PagingNav a:hover { color: #162543; }

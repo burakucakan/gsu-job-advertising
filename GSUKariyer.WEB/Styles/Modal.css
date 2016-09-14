@@ -1,0 +1,10 @@
+﻿/* MODAL CSS */
+
+.Modal { min-height: 254px; width: 374px;  }
+.ModalOverlay { background-color: #000; filter: alpha(opacity=80); opacity: 0.8; }
+.ModalHeader { background-color: #000; clear: both; color: #FFF; display: block; font: bold 11px Tahoma; min-height: 15px; padding: 13px 30px; text-align: left; filter: alpha(opacity=70); opacity: 0.7; }
+.ModalHeader span { float: left; }
+.ModalHeader a { background: none; float: right; margin: 0; padding: 0; }
+.Modal .Form { background: #FFF; padding: 20px; width: 334px; }
+.Modal .Form a { margin: 30px 5px 10px; }
+.Modal .Error { clear: both; float: right; }

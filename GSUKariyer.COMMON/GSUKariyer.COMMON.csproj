@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35AF797C-4467-479E-A1DE-3B11E69BF164}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GSUKariyer.COMMON</RootNamespace>
+    <AssemblyName>GSUKariyer.COMMON</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProjectFiles\DLL\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppUtil.cs" />
+    <Compile Include="FormatHelper.cs" />
+    <Compile Include="Helpers.General\CacheManager.cs" />
+    <Compile Include="ConfigurationHelper.cs" />
+    <Compile Include="Helpers.General\Check.cs" />
+    <Compile Include="Helpers.General\Compressor.cs" />
+    <Compile Include="Helpers.General\Mail.cs" />
+    <Compile Include="Helpers.General\DataBindHelper.cs" />
+    <Compile Include="Helpers.General\DataTableHelper.cs" />
+    <Compile Include="Helpers.General\DateHelper.cs" />
+    <Compile Include="Helpers.General\DBNullHelper.cs" />
+    <Compile Include="Helpers.General\Encryption.cs" />
+    <Compile Include="ExtentionMethods.cs" />
+    <Compile Include="Exceptions\MyException.cs" />
+    <Compile Include="Helpers.DAL\BaseDataLayer.cs" />
+    <Compile Include="Helpers.DAL\SQLHelper.cs" />
+    <Compile Include="Helpers.General\ConfigurationHelper.Common.cs" />
+    <Compile Include="Helpers.General\ExportFile.cs" />
+    <Compile Include="Helpers.General\FileHelper.cs" />
+    <Compile Include="Helpers.General\ImageHelper.cs" />
+    <Compile Include="Helpers.General\ImpersonationHelper.cs" />
+    <Compile Include="Helpers.General\Logger.cs" />
+    <Compile Include="Helpers.General\Mailing.cs" />
+    <Compile Include="Helpers.General\SerializationHelper.cs" />
+    <Compile Include="Helpers.General\StringEnum.cs" />
+    <Compile Include="Helpers.General\Util.cs" />
+    <Compile Include="Helpers.WEB\BaseCompressedPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.WEB\BaseEditViewListControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.WEB\BaseFirmPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.WEB\BaseFirmUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.WEB\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.WEB\BaseStudentUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.WEB\BaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.WEB\BaseCvEditUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.WEB\BaseStudentPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.WEB\BaseEditViewControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.WEB\DDLHelper.cs" />
+    <Compile Include="Helpers.WEB\PageHelper.cs" />
+    <Compile Include="Helpers.General\UrlHelper.Common.cs" />
+    <Compile Include="Helpers.General\Validator.Common.cs" />
+    <Compile Include="Helpers.WEB\GridViewSortHelper.cs" />
+    <Compile Include="Helpers.WEB\QueryStringModule.cs" />
+    <Compile Include="Helpers.WEB\RepeaterHelper.cs" />
+    <Compile Include="Helpers.WEB\SessionHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionHelper.cs" />
+    <Compile Include="UrlHelper.cs" />
+    <Compile Include="Validator.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

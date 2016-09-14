@@ -1,0 +1,9 @@
+/* FORM CSS */
+
+select { border: solid 1px #d2cda6; color: #0f3034; display: block; font: bold 11px Tahoma; padding: 3px; margin-bottom: 5px;  }
+input[type="text"], input[type="password"], textarea { border: solid 1px #d2cda6; color: #152426; display: block; font: normal 13px Trebuchet Ms; padding: 3px 0 2px 5px; width: 97%; }
+input[type="text"].TextBoxInit { border: solid 1px #d2cda6; color: #afadab; font: italic bold 11px Trebuchet Ms; padding: 3px 0 2px 5px; }
+
+.ButtonAlt { background: #480e3b url('../Images/Buttons/Back.jpg') repeat-x top left; border: 0; color: #FFF; cursor: pointer; font: normal 11px Tahoma; padding: 5px 8px; }
+
+.ajax__calendar_container select { display: inline; margin-top: -3px; }

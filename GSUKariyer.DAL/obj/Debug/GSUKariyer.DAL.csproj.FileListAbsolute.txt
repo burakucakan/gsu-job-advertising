@@ -1,0 +1,8 @@
+D:\PRJ\GsuKariyer\GSUKariyer.DAL\bin\Debug\GSUKariyer.DAL.dll
+D:\PRJ\GsuKariyer\GSUKariyer.DAL\bin\Debug\GSUKariyer.DAL.pdb
+D:\PRJ\GsuKariyer\GSUKariyer.DAL\bin\Debug\GSUKariyer.COMMON.dll
+D:\PRJ\GsuKariyer\GSUKariyer.DAL\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\PRJ\GsuKariyer\GSUKariyer.DAL\bin\Debug\GSUKariyer.COMMON.pdb
+D:\PRJ\GsuKariyer\GSUKariyer.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\PRJ\GsuKariyer\GSUKariyer.DAL\obj\Debug\GSUKariyer.DAL.dll
+D:\PRJ\GsuKariyer\GSUKariyer.DAL\obj\Debug\GSUKariyer.DAL.pdb

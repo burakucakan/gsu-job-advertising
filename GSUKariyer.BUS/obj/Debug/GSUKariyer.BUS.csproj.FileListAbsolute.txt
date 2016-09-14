@@ -1,0 +1,10 @@
+D:\PRJ\GsuKariyer\GSUKariyer.BUS\bin\Debug\GSUKariyer.BUS.dll
+D:\PRJ\GsuKariyer\GSUKariyer.BUS\bin\Debug\GSUKariyer.BUS.pdb
+D:\PRJ\GsuKariyer\GSUKariyer.BUS\bin\Debug\GSUKariyer.COMMON.dll
+D:\PRJ\GsuKariyer\GSUKariyer.BUS\bin\Debug\GSUKariyer.DAL.dll
+D:\PRJ\GsuKariyer\GSUKariyer.BUS\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\PRJ\GsuKariyer\GSUKariyer.BUS\bin\Debug\GSUKariyer.DAL.pdb
+D:\PRJ\GsuKariyer\GSUKariyer.BUS\bin\Debug\GSUKariyer.COMMON.pdb
+D:\PRJ\GsuKariyer\GSUKariyer.BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\PRJ\GsuKariyer\GSUKariyer.BUS\obj\Debug\GSUKariyer.BUS.dll
+D:\PRJ\GsuKariyer\GSUKariyer.BUS\obj\Debug\GSUKariyer.BUS.pdb

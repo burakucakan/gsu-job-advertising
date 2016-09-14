@@ -1,0 +1,62 @@
+﻿/* SCREEN CSS */
+
+.MainAnnouncements { background: #FFF url('../Images/Global/BackLines.jpg') repeat-x top left; 
+                     display: block; min-height: 120px; padding-top: 15px; text-align: left; }
+
+
+.SignupInfo { float: left; width: 300px; }
+.SignupForm { float: right; width: 335px; padding-right: 10px; text-align: left; }
+
+
+.SearchNavigation { float: left; width: 200px; text-align: right; }
+.SearchNavigation a { display: block; font-weight: bold; line-height: 20px; margin-bottom: 5px; }
+.SearchNavigation .Item { float: right; }
+.SearchNavigation .Item a { float: right; margin: 0; }
+.SearchNavigation ins { height: 10px; }
+
+.SearchContent { float: right; width: 475px; }
+.SearchContent .Panel { min-height: 350px; }
+.SearchContent input[type="image"] { margin-right: 20px; }
+
+
+a.ReturnSearch { background: #FFF url('../Images/Button/ReturnSearch.jpg') no-repeat; display: block; width: 151px; height: 16px; text-indent: -99999px; }
+a.ReturnSearch:hover { background-image: url('../Images/Button/ReturnSearchOver.jpg') }
+
+
+.JobDetailHeader { clear: both; display: block; float: right; margin-bottom: 10px; padding: 0 20px; width: 94%; }
+.JobDetailHeader a { float: left; }
+
+
+.Cv {  }
+.Cv table { margin-top: 10px; }
+.Cv table td { padding: 5px 3px 0; }
+.Cv .Panel { margin-top: 35px; }
+.CvHeader { float: left; padding: 0 20px; }
+.CvHeader img { float: left; margin: 0 25px 0 0; width: 117px; }
+.CvHeader div { float: left; text-align: left; }
+.CvHeader div h3 { margin-bottom: 8px; }
+.CvHeader div a { border-bottom: dotted 1px #49797f; }
+
+
+.CvFormNavigation { border-right: solid 2px #f0da96; float: left; margin-right: 15px; min-height: 550px; padding: 8px 13px; width: 200px; text-align: right; }
+.CvFormNavigation div { margin: 5px 0 15px 0; }
+.CvFormNavigation a { line-height: 20px; }
+
+a.CvCreate { background: #FFF url('../Images/Button/CvCreate.jpg') no-repeat; display: block; width: 120px; height: 26px; text-indent: -9999px; border-bottom-width: 0; }
+a.CvCreate:hover { border-bottom-width: 0; }
+
+.CvFormContent { float: left; max-width: 430px; text-align: left; }
+.CvFormContent .Form { width: 430px }
+
+
+.Contact { background: #FFF url('../Images/Screen/Gsu.jpg') no-repeat 20px 20px; padding-left: 170px; }
+
+
+.FirmLogin { float: right; width: 350px; text-align: left; }
+.FirmLoginDesc { float: left; width: 330px; }
+
+
+.AllFirmList { text-align: center; padding: 20px 10px; }
+
+
+.ApplicationAnswer { width: 400px; height: 250px; padding: 15px; background-color: #FFF; text-align: left; }

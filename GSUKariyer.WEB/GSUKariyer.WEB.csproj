@@ -1,0 +1,1336 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{24277886-D2BD-4264-8710-926FA4A16772}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GSUKariyer.WEB</RootNamespace>
+    <AssemblyName>GSUKariyer.WEB</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <TargetFrameworkSubset>Full</TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.10301.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="CalendarExtenderPlus, Version=1.0.0.36888, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdvertisementForm.aspx.cs">
+      <DependentUpon>AdvertisementForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdvertisementForm.aspx.designer.cs">
+      <DependentUpon>AdvertisementForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllFirms.aspx.cs">
+      <DependentUpon>AllFirms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllFirms.aspx.designer.cs">
+      <DependentUpon>AllFirms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentDetail.aspx.cs">
+      <DependentUpon>ContentDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContentDetail.aspx.designer.cs">
+      <DependentUpon>ContentDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contents.aspx.cs">
+      <DependentUpon>Contents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents.aspx.designer.cs">
+      <DependentUpon>Contents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cv.aspx.cs">
+      <DependentUpon>Cv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cv.aspx.designer.cs">
+      <DependentUpon>Cv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CvForm.aspx.cs">
+      <DependentUpon>CvForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CvForm.aspx.designer.cs">
+      <DependentUpon>CvForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdvertisementDetail.aspx.cs">
+      <DependentUpon>AdvertisementDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdvertisementDetail.aspx.designer.cs">
+      <DependentUpon>AdvertisementDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Advertisements.aspx.cs">
+      <DependentUpon>Advertisements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Advertisements.aspx.designer.cs">
+      <DependentUpon>Advertisements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Firm.aspx.cs">
+      <DependentUpon>Firm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Firm.aspx.designer.cs">
+      <DependentUpon>Firm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FirmAdvertisements.aspx.cs">
+      <DependentUpon>FirmAdvertisements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirmAdvertisements.aspx.designer.cs">
+      <DependentUpon>FirmAdvertisements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FirmApplications.aspx.cs">
+      <DependentUpon>FirmApplications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirmApplications.aspx.designer.cs">
+      <DependentUpon>FirmApplications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FirmDetail.aspx.cs">
+      <DependentUpon>FirmDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirmDetail.aspx.designer.cs">
+      <DependentUpon>FirmDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FirmLogin.aspx.cs">
+      <DependentUpon>FirmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirmLogin.aspx.designer.cs">
+      <DependentUpon>FirmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FirmSignup.aspx.cs">
+      <DependentUpon>FirmSignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirmSignup.aspx.designer.cs">
+      <DependentUpon>FirmSignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Kariyer.aspx.cs">
+      <DependentUpon>Kariyer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kariyer.aspx.designer.cs">
+      <DependentUpon>Kariyer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student.aspx.cs">
+      <DependentUpon>Student.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student.aspx.designer.cs">
+      <DependentUpon>Student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TermsOfUse.aspx.cs">
+      <DependentUpon>TermsOfUse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TermsOfUse.aspx.designer.cs">
+      <DependentUpon>TermsOfUse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserActivation.aspx.cs">
+      <DependentUpon>UserActivation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserActivation.aspx.designer.cs">
+      <DependentUpon>UserActivation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserApplications.aspx.cs">
+      <DependentUpon>UserApplications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserApplications.aspx.designer.cs">
+      <DependentUpon>UserApplications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AboutUs\uAboutUs.ascx.cs">
+      <DependentUpon>uAboutUs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\AboutUs\uAboutUs.ascx.designer.cs">
+      <DependentUpon>uAboutUs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Advertisement\uAdvertisementList.ascx.cs">
+      <DependentUpon>uAdvertisementList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Advertisement\uAdvertisementList.ascx.designer.cs">
+      <DependentUpon>uAdvertisementList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Advertisement\uAdvertisementThumbList.ascx.cs">
+      <DependentUpon>uAdvertisementThumbList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Advertisement\uAdvertisementThumbList.ascx.designer.cs">
+      <DependentUpon>uAdvertisementThumbList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\HelperControls\uDateDropDown.ascx.cs">
+      <DependentUpon>uDateDropDown.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\HelperControls\uDateDropDown.ascx.designer.cs">
+      <DependentUpon>uDateDropDown.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\HelperControls\uNumericDropdown.ascx.cs">
+      <DependentUpon>uNumericDropdown.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\HelperControls\uNumericDropdown.ascx.designer.cs">
+      <DependentUpon>uNumericDropdown.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\uPagingPostback.ascx.cs">
+      <DependentUpon>uPagingPostback.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\uPagingPostback.ascx.designer.cs">
+      <DependentUpon>uPagingPostback.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\uPaging.ascx.cs">
+      <DependentUpon>uPaging.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\uPaging.ascx.designer.cs">
+      <DependentUpon>uPaging.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\uPhoneNumber.ascx.cs">
+      <DependentUpon>uPhoneNumber.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\uPhoneNumber.ascx.designer.cs">
+      <DependentUpon>uPhoneNumber.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\uSendCv.ascx.cs">
+      <DependentUpon>uSendCv.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\uSendCv.ascx.designer.cs">
+      <DependentUpon>uSendCv.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\uUserApplicationList.ascx.cs">
+      <DependentUpon>uUserApplicationList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\uUserApplicationList.ascx.designer.cs">
+      <DependentUpon>uUserApplicationList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Contact\uContact.ascx.cs">
+      <DependentUpon>uContact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Contact\uContact.ascx.designer.cs">
+      <DependentUpon>uContact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Content\uContentDetail.ascx.cs">
+      <DependentUpon>uContentDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Content\uContentDetail.ascx.designer.cs">
+      <DependentUpon>uContentDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Content\uContents.ascx.cs">
+      <DependentUpon>uContents.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Content\uContents.ascx.designer.cs">
+      <DependentUpon>uContents.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\HelperControls\uEditViewControl.ascx.cs">
+      <DependentUpon>uEditViewControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\HelperControls\uEditViewControl.ascx.designer.cs">
+      <DependentUpon>uEditViewControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\HelperControls\uItem.ascx.cs">
+      <DependentUpon>uItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\HelperControls\uItem.ascx.designer.cs">
+      <DependentUpon>uItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\uCareerPlaningThumb.ascx.cs">
+      <DependentUpon>uCareerPlaningThumb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\uCareerPlaningThumb.ascx.designer.cs">
+      <DependentUpon>uCareerPlaningThumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\uJobThumb.ascx.cs">
+      <DependentUpon>uJobThumb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\uJobThumb.ascx.designer.cs">
+      <DependentUpon>uJobThumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\uBanner.ascx.cs">
+      <DependentUpon>uBanner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\uBanner.ascx.designer.cs">
+      <DependentUpon>uBanner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Common\uLogin.ascx.cs">
+      <DependentUpon>uLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Common\uLogin.ascx.designer.cs">
+      <DependentUpon>uLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Advertisement\uAdvertisementDetail.ascx.cs">
+      <DependentUpon>uAdvertisementDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Advertisement\uAdvertisementDetail.ascx.designer.cs">
+      <DependentUpon>uAdvertisementDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Advertisement\uAdvertisements.ascx.cs">
+      <DependentUpon>uAdvertisements.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Advertisement\uAdvertisements.ascx.designer.cs">
+      <DependentUpon>uAdvertisements.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCVResult.ascx.cs">
+      <DependentUpon>uCVResult.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCVResult.ascx.designer.cs">
+      <DependentUpon>uCVResult.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uMyPhoto.ascx.cs">
+      <DependentUpon>uMyPhoto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uMyPhoto.ascx.designer.cs">
+      <DependentUpon>uMyPhoto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCVState.ascx.cs">
+      <DependentUpon>uCVState.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCVState.ascx.designer.cs">
+      <DependentUpon>uCVState.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uReferanceInfo.ascx.cs">
+      <DependentUpon>uReferanceInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uReferanceInfo.ascx.designer.cs">
+      <DependentUpon>uReferanceInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uExperienceInfo.ascx.cs">
+      <DependentUpon>uExperienceInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uExperienceInfo.ascx.designer.cs">
+      <DependentUpon>uExperienceInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uPositions.ascx.cs">
+      <DependentUpon>uPositions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uPositions.ascx.designer.cs">
+      <DependentUpon>uPositions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uDrivingLicense.ascx.cs">
+      <DependentUpon>uDrivingLicense.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uDrivingLicense.ascx.designer.cs">
+      <DependentUpon>uDrivingLicense.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCourseInfo.ascx.cs">
+      <DependentUpon>uCourseInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCourseInfo.ascx.designer.cs">
+      <DependentUpon>uCourseInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uExamInfo.ascx.cs">
+      <DependentUpon>uExamInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uExamInfo.ascx.designer.cs">
+      <DependentUpon>uExamInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCertificateInfo.ascx.cs">
+      <DependentUpon>uCertificateInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCertificateInfo.ascx.designer.cs">
+      <DependentUpon>uCertificateInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uComputerInfo.ascx.cs">
+      <DependentUpon>uComputerInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uComputerInfo.ascx.designer.cs">
+      <DependentUpon>uComputerInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uLanguagelInfo.ascx.cs">
+      <DependentUpon>uLanguagelInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uLanguagelInfo.ascx.designer.cs">
+      <DependentUpon>uLanguagelInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uHighSchoolInfo.ascx.cs">
+      <DependentUpon>uHighSchoolInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uHighSchoolInfo.ascx.designer.cs">
+      <DependentUpon>uHighSchoolInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uUniversityInfo.ascx.cs">
+      <DependentUpon>uUniversityInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uUniversityInfo.ascx.designer.cs">
+      <DependentUpon>uUniversityInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uMasterInfo.ascx.cs">
+      <DependentUpon>uMasterInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uMasterInfo.ascx.designer.cs">
+      <DependentUpon>uMasterInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uEducationState.ascx.cs">
+      <DependentUpon>uEducationState.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uEducationState.ascx.designer.cs">
+      <DependentUpon>uEducationState.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uUserClubs.ascx.cs">
+      <DependentUpon>uUserClubs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uUserClubs.ascx.designer.cs">
+      <DependentUpon>uUserClubs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCigaretteUsage.ascx.cs">
+      <DependentUpon>uCigaretteUsage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCigaretteUsage.ascx.designer.cs">
+      <DependentUpon>uCigaretteUsage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCityCountryInfo.ascx.cs">
+      <DependentUpon>uCityCountryInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCityCountryInfo.ascx.designer.cs">
+      <DependentUpon>uCityCountryInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCommunicationInfo.ascx.cs">
+      <DependentUpon>uCommunicationInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCommunicationInfo.ascx.designer.cs">
+      <DependentUpon>uCommunicationInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uPersonalInfo.ascx.cs">
+      <DependentUpon>uPersonalInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uPersonalInfo.ascx.designer.cs">
+      <DependentUpon>uPersonalInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uWelcome.ascx.cs">
+      <DependentUpon>uWelcome.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uWelcome.ascx.designer.cs">
+      <DependentUpon>uWelcome.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\uCv.ascx.cs">
+      <DependentUpon>uCv.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\uCv.ascx.designer.cs">
+      <DependentUpon>uCv.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\uCvForm.ascx.cs">
+      <DependentUpon>uCvForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\uCvForm.ascx.designer.cs">
+      <DependentUpon>uCvForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCvFormNavigation.ascx.cs">
+      <DependentUpon>uCvFormNavigation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cv\Edit\uCvFormNavigation.ascx.designer.cs">
+      <DependentUpon>uCvFormNavigation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uAdvertisementForm.ascx.cs">
+      <DependentUpon>uAdvertisementForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uAdvertisementForm.ascx.designer.cs">
+      <DependentUpon>uAdvertisementForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirm.ascx.cs">
+      <DependentUpon>uFirm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirm.ascx.designer.cs">
+      <DependentUpon>uFirm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmAdvertisementList.ascx.cs">
+      <DependentUpon>uFirmAdvertisementList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmAdvertisementList.ascx.designer.cs">
+      <DependentUpon>uFirmAdvertisementList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmAdvertisements.ascx.cs">
+      <DependentUpon>uFirmAdvertisements.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmAdvertisements.ascx.designer.cs">
+      <DependentUpon>uFirmAdvertisements.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmApplicationList.ascx.cs">
+      <DependentUpon>uFirmApplicationList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmApplicationList.ascx.designer.cs">
+      <DependentUpon>uFirmApplicationList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmApplications.ascx.cs">
+      <DependentUpon>uFirmApplications.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmApplications.ascx.designer.cs">
+      <DependentUpon>uFirmApplications.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmDetail.ascx.cs">
+      <DependentUpon>uFirmDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmDetail.ascx.designer.cs">
+      <DependentUpon>uFirmDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmLogin.ascx.cs">
+      <DependentUpon>uFirmLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmLogin.ascx.designer.cs">
+      <DependentUpon>uFirmLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmSignup.ascx.cs">
+      <DependentUpon>uFirmSignup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uFirmSignup.ascx.designer.cs">
+      <DependentUpon>uFirmSignup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uUserList.ascx.cs">
+      <DependentUpon>uUserList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uUserList.ascx.designer.cs">
+      <DependentUpon>uUserList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uUsers.ascx.cs">
+      <DependentUpon>uUsers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uUsers.ascx.designer.cs">
+      <DependentUpon>uUsers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Firm\uUserSearch.ascx.cs">
+      <DependentUpon>uUserSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Firm\uUserSearch.ascx.designer.cs">
+      <DependentUpon>uUserSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Lists\uAllFirms.ascx.cs">
+      <DependentUpon>uAllFirms.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Lists\uAllFirms.ascx.designer.cs">
+      <DependentUpon>uAllFirms.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Main\uStudent.ascx.cs">
+      <DependentUpon>uStudent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Main\uStudent.ascx.designer.cs">
+      <DependentUpon>uStudent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Main\uMain.ascx.cs">
+      <DependentUpon>uMain.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Main\uMain.ascx.designer.cs">
+      <DependentUpon>uMain.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Main\uMainAnnouncements.ascx.cs">
+      <DependentUpon>uMainAnnouncements.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Main\uMainAnnouncements.ascx.designer.cs">
+      <DependentUpon>uMainAnnouncements.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Master\uNavigation.ascx.cs">
+      <DependentUpon>uNavigation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Master\uNavigation.ascx.designer.cs">
+      <DependentUpon>uNavigation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Master\uSurvey.ascx.cs">
+      <DependentUpon>uSurvey.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Master\uSurvey.ascx.designer.cs">
+      <DependentUpon>uSurvey.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Master\uFooter.ascx.cs">
+      <DependentUpon>uFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Master\uFooter.ascx.designer.cs">
+      <DependentUpon>uFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Master\uLoginArea.ascx.cs">
+      <DependentUpon>uLoginArea.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Master\uLoginArea.ascx.designer.cs">
+      <DependentUpon>uLoginArea.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Master\uSearchBar.ascx.cs">
+      <DependentUpon>uSearchBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Master\uSearchBar.ascx.designer.cs">
+      <DependentUpon>uSearchBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Search\uSearch.ascx.cs">
+      <DependentUpon>uSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Search\uSearch.ascx.designer.cs">
+      <DependentUpon>uSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Signup\uSignup.ascx.cs">
+      <DependentUpon>uSignup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Signup\uSignup.ascx.designer.cs">
+      <DependentUpon>uSignup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uWorkingExperiences.ascx.cs">
+      <DependentUpon>uWorkingExperiences.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uWorkingExperiences.ascx.designer.cs">
+      <DependentUpon>uWorkingExperiences.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uWorkingStatus.ascx.cs">
+      <DependentUpon>uWorkingStatus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uWorkingStatus.ascx.designer.cs">
+      <DependentUpon>uWorkingStatus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uWorkerCounts.ascx.cs">
+      <DependentUpon>uWorkerCounts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uWorkerCounts.ascx.designer.cs">
+      <DependentUpon>uWorkerCounts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uExperienceCount.ascx.cs">
+      <DependentUpon>uExperienceCount.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uExperienceCount.ascx.designer.cs">
+      <DependentUpon>uExperienceCount.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uWorkingType.ascx.cs">
+      <DependentUpon>uWorkingType.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uWorkingType.ascx.designer.cs">
+      <DependentUpon>uWorkingType.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uPersonalCount.ascx.cs">
+      <DependentUpon>uPersonalCount.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uPersonalCount.ascx.designer.cs">
+      <DependentUpon>uPersonalCount.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uExams.ascx.cs">
+      <DependentUpon>uExams.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uExams.ascx.designer.cs">
+      <DependentUpon>uExams.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uLanguages.ascx.cs">
+      <DependentUpon>uLanguages.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uLanguages.ascx.designer.cs">
+      <DependentUpon>uLanguages.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uAdvertisementTypes.ascx.cs">
+      <DependentUpon>uAdvertisementTypes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uAdvertisementTypes.ascx.designer.cs">
+      <DependentUpon>uAdvertisementTypes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uCertificateTypes.ascx.cs">
+      <DependentUpon>uCertificateTypes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uCertificateTypes.ascx.designer.cs">
+      <DependentUpon>uCertificateTypes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uCigaretteUseTypes.ascx.cs">
+      <DependentUpon>uCigaretteUseTypes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uCigaretteUseTypes.ascx.designer.cs">
+      <DependentUpon>uCigaretteUseTypes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uCities.ascx.cs">
+      <DependentUpon>uCities.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uCities.ascx.designer.cs">
+      <DependentUpon>uCities.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uCityCountry.ascx.cs">
+      <DependentUpon>uCityCountry.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uCityCountry.ascx.designer.cs">
+      <DependentUpon>uCityCountry.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uContactTypes.ascx.cs">
+      <DependentUpon>uContactTypes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uContactTypes.ascx.designer.cs">
+      <DependentUpon>uContactTypes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uCountries.ascx.cs">
+      <DependentUpon>uCountries.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uCountries.ascx.designer.cs">
+      <DependentUpon>uCountries.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uEducationGradeSystem.ascx.cs">
+      <DependentUpon>uEducationGradeSystem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uEducationGradeSystem.ascx.designer.cs">
+      <DependentUpon>uEducationGradeSystem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uEducationStates.ascx.cs">
+      <DependentUpon>uEducationStates.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uEducationStates.ascx.designer.cs">
+      <DependentUpon>uEducationStates.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uGenders.ascx.cs">
+      <DependentUpon>uGenders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uGenders.ascx.designer.cs">
+      <DependentUpon>uGenders.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uGsClubs.ascx.cs">
+      <DependentUpon>uGsClubs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uGsClubs.ascx.designer.cs">
+      <DependentUpon>uGsClubs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uLicenseEducationType.ascx.cs">
+      <DependentUpon>uLicenseEducationType.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uLicenseEducationType.ascx.designer.cs">
+      <DependentUpon>uLicenseEducationType.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uMaritalStatus.ascx.cs">
+      <DependentUpon>uMaritalStatus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uMaritalStatus.ascx.designer.cs">
+      <DependentUpon>uMaritalStatus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uPositions.ascx.cs">
+      <DependentUpon>uPositions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uPositions.ascx.designer.cs">
+      <DependentUpon>uPositions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uSectors.ascx.cs">
+      <DependentUpon>uSectors.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uSectors.ascx.designer.cs">
+      <DependentUpon>uSectors.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uUniversities.ascx.cs">
+      <DependentUpon>uUniversities.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uUniversities.ascx.designer.cs">
+      <DependentUpon>uUniversities.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uUniversityDepartments.ascx.cs">
+      <DependentUpon>uUniversityDepartments.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uUniversityDepartments.ascx.designer.cs">
+      <DependentUpon>uUniversityDepartments.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uUniversityInstitute.ascx.cs">
+      <DependentUpon>uUniversityInstitute.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SiteParamControls\uUniversityInstitute.ascx.designer.cs">
+      <DependentUpon>uUniversityInstitute.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TermsOfUse\uTermsOfUse.ascx.cs">
+      <DependentUpon>uTermsOfUse.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\TermsOfUse\uTermsOfUse.ascx.designer.cs">
+      <DependentUpon>uTermsOfUse.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\User\uUserActivation.ascx.cs">
+      <DependentUpon>uUserActivation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\User\uUserActivation.ascx.designer.cs">
+      <DependentUpon>uUserActivation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\User\uUserApplications.ascx.cs">
+      <DependentUpon>uUserApplications.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\User\uUserApplications.ascx.designer.cs">
+      <DependentUpon>uUserApplications.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\User\uUserFrontPosts.ascx.cs">
+      <DependentUpon>uUserFrontPosts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\User\uUserFrontPosts.ascx.designer.cs">
+      <DependentUpon>uUserFrontPosts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserFrontPosts.aspx.cs">
+      <DependentUpon>UserFrontPosts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserFrontPosts.aspx.designer.cs">
+      <DependentUpon>UserFrontPosts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserSearch.aspx.cs">
+      <DependentUpon>UserSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserSearch.aspx.designer.cs">
+      <DependentUpon>UserSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Private\Password.aspx.cs">
+      <DependentUpon>Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Private\Password.aspx.designer.cs">
+      <DependentUpon>Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Private\test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GSUKariyer.BUS\GSUKariyer.BUS.csproj">
+      <Project>{023DE6D1-37A5-4EE0-B058-559971415F73}</Project>
+      <Name>GSUKariyer.BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GSUKariyer.COMMON\GSUKariyer.COMMON.csproj">
+      <Project>{35AF797C-4467-479E-A1DE-3B11E69BF164}</Project>
+      <Name>GSUKariyer.COMMON</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.htm" />
+    <Content Include="Kariyer.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="robots.txt" />
+    <Content Include="_app_offline.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="AdvertisementForm.aspx" />
+    <Content Include="AllFirms.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="ContentDetail.aspx" />
+    <Content Include="Contents.aspx" />
+    <Content Include="Cv.aspx" />
+    <Content Include="CvForm.aspx" />
+    <Content Include="Default.Master" />
+    <Content Include="Firm.aspx" />
+    <Content Include="FirmAdvertisements.aspx" />
+    <Content Include="FirmApplications.aspx" />
+    <Content Include="FirmDetail.aspx" />
+    <Content Include="FirmLogin.aspx" />
+    <Content Include="FirmSignup.aspx" />
+    <Content Include="Images\Button\Add.jpg" />
+    <Content Include="Images\Button\CalenndarSchedule.png" />
+    <Content Include="Images\Button\Cancel.jpg" />
+    <Content Include="Images\Button\CvCreate.jpg" />
+    <Content Include="Images\Button\CvView.jpg" />
+    <Content Include="Images\Button\FirmSignUp.jpg" />
+    <Content Include="Images\Button\JobJoin.jpg" />
+    <Content Include="Images\Button\Print.jpg" />
+    <Content Include="Images\Button\QuickSearch.jpg" />
+    <Content Include="Images\Button\ReturnSearch.jpg" />
+    <Content Include="Images\Button\ReturnSearchOver.jpg" />
+    <Content Include="Images\Button\Save.jpg" />
+    <Content Include="Images\Button\SaveAndContinue.jpg" />
+    <Content Include="Images\Button\Search.jpg" />
+    <Content Include="Images\Button\SendCv.jpg" />
+    <Content Include="Images\Button\SendMessage.jpg" />
+    <Content Include="Images\Global\Active.png" />
+    <Content Include="Images\Global\Answered.gif" />
+    <Content Include="Images\Global\ArrowUp.png" />
+    <Content Include="Images\Global\Check.png" />
+    <Content Include="Images\Global\CheckPassive.png" />
+    <Content Include="Images\Global\Edit.png" />
+    <Content Include="AdvertisementDetail.aspx" />
+    <Content Include="Advertisements.aspx" />
+    <Content Include="Images\Global\Mail.png" />
+    <Content Include="Images\Global\MailOpen.png" />
+    <Content Include="Images\Global\NotViewed.gif" />
+    <Content Include="Images\Global\Passive.png" />
+    <Content Include="Images\Global\View.png" />
+    <Content Include="Images\Global\Viewed.gif" />
+    <Content Include="Images\Screen\FirmSign.jpg" />
+    <Content Include="Images\Screen\Gsu.jpg" />
+    <Content Include="Images\Screen\GsuLogo.png" />
+    <Content Include="Images\Screen\SurveyResultBar.gif" />
+    <Content Include="Images\_U\Company\Default\gsu_1.jpg" />
+    <Content Include="Images\_U\Company\Default\gsu_19.jpg" />
+    <Content Include="Images\_U\Company\Default\gsu_2.jpg" />
+    <Content Include="Images\_U\Company\Default\gsu_28.jpg" />
+    <Content Include="Images\_U\Company\Default\gsu_29.jpg" />
+    <Content Include="Images\_U\Company\Default\gsu_3.jpg" />
+    <Content Include="Images\_U\Company\Default\gsu_39.jpg" />
+    <Content Include="Images\_U\Company\Default\gsu_4.jpg" />
+    <Content Include="Images\_U\Company\Default\gsu_47.jpg" />
+    <Content Include="Images\_U\Company\Default\gsu_48.jpg" />
+    <Content Include="Images\_U\Company\Default\gsu_5.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_19.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_25.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_28.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_29.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_39.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_40.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_41.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_43.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_44.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_45.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_46.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_47.jpg" />
+    <Content Include="Images\_U\Company\Original\gsu_48.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_19.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_22.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_25.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_26.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_28.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_29.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_39.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_40.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_41.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_43.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_44.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_45.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_46.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_47.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_48.jpg" />
+    <Content Include="Images\_U\Duyurular\Default\gsu_3.jpg" />
+    <Content Include="Images\_U\Duyurular\Default\gsu_1.jpg" />
+    <Content Include="Images\_U\KariyerPlanlama\BasariHikayeleri\Default\gsu_5.jpg" />
+    <Content Include="Images\_U\KariyerPlanlama\Roportajlar\Thumb\gsu_2.jpg" />
+    <Content Include="Images\_U\KariyerPlanlama\Roportajlar\Thumb\gsu_4.jpg" />
+    <Content Include="Images\_U\Users\Default\gsu_1.jpg" />
+    <Content Include="MailTemplates\Default.htm" />
+    <Content Include="MailTemplates\Images\GsuMailBack.jpg" />
+    <Content Include="Scripts\Jquery\jquery-1.3.2.min.js" />
+    <Content Include="Scripts\Print.js" />
+    <Content Include="Search.aspx" />
+    <Content Include="Images\Button\Back.jpg" />
+    <Content Include="Images\Button\Login.jpg" />
+    <Content Include="Images\Button\Send.jpg" />
+    <Content Include="Images\Global\BackLines.jpg" />
+    <Content Include="Images\Global\X.png" />
+    <Content Include="Images\Global\CompanyIcon.gif" />
+    <Content Include="Images\Global\Indicator.gif" />
+    <Content Include="Images\Global\MoreArrow.gif" />
+    <Content Include="Images\Global\Error.gif" />
+    <Content Include="Images\Global\Success.gif" />
+    <Content Include="Images\Global\RedArrow.gif" />
+    <Content Include="Images\Global\ArrowDown.png" />
+    <Content Include="Images\Global\ArrowRight.png" />
+    <Content Include="Images\Screen\Back.jpg" />
+    <Content Include="Images\GsuFav.ico" />
+    <Content Include="Images\Screen\GsuLogo.gif" />
+    <Content Include="Images\Screen\NewUser.jpg" />
+    <Content Include="Images\SearchBar\Back.jpg" />
+    <Content Include="Images\SearchBar\Left.jpg" />
+    <Content Include="Images\SearchBar\Right.jpg" />
+    <Content Include="Images\SearchBar\SearchButton.jpg" />
+    <Content Include="Images\SocialMedia\delicious.jpg" />
+    <Content Include="Images\SocialMedia\digg.jpg" />
+    <Content Include="Images\SocialMedia\facebook-t.jpg" />
+    <Content Include="Images\SocialMedia\flickr.jpg" />
+    <Content Include="Images\SocialMedia\friendfeed.jpg" />
+    <Content Include="Images\SocialMedia\google.jpg" />
+    <Content Include="Images\SocialMedia\lastfm.jpg" />
+    <Content Include="Images\SocialMedia\live.gif" />
+    <Content Include="Images\SocialMedia\mail.jpg" />
+    <Content Include="Images\SocialMedia\mixx.jpg" />
+    <Content Include="Images\SocialMedia\myspace.jpg" />
+    <Content Include="Images\SocialMedia\reddit.jpg" />
+    <Content Include="Images\SocialMedia\rss.jpg" />
+    <Content Include="Images\SocialMedia\stumble.jpg" />
+    <Content Include="Images\SocialMedia\tumblr.jpg" />
+    <Content Include="Images\SocialMedia\twitter.jpg" />
+    <Content Include="Images\SocialMedia\vimeo.jpg" />
+    <Content Include="Images\SocialMedia\yahoo.jpg" />
+    <Content Include="Images\SocialMedia\youtube.jpg" />
+    <Content Include="Images\Tipsy\tipsy-east.gif" />
+    <Content Include="Images\Tipsy\tipsy-north.gif" />
+    <Content Include="Images\Tipsy\tipsy-south.gif" />
+    <Content Include="Images\Tipsy\tipsy-west.gif" />
+    <Content Include="Images\_U\Banner\1.jpg" />
+    <Content Include="Images\_U\Banner\2.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_1.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_2.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_3.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_4.jpg" />
+    <Content Include="Images\_U\Company\Thumb\gsu_5.jpg" />
+    <Content Include="Images\_U\Duyurular\Thumb\gsu_3.jpg" />
+    <Content Include="Images\_U\Duyurular\Thumb\gsu_2.jpg" />
+    <Content Include="Images\_U\KariyerPlanlama\BasariHikayeleri\Thumb\gsu_5.jpg" />
+    <Content Include="Images\_U\KariyerPlanlama\Makaleler\Thumb\gsu_6.jpg" />
+    <Content Include="Images\_U\Users\Square\1.jpg" />
+    <Content Include="Scripts\Custom.js" />
+    <Content Include="Scripts\JqueryInit.js" />
+    <Content Include="Scripts\Jquery\jquery.flash.js" />
+    <Content Include="Scripts\Jquery\jquery.min.js" />
+    <Content Include="Scripts\Jquery\jquery.sifr.js" />
+    <Content Include="Scripts\Jquery\jquery.tipsy.js" />
+    <Content Include="Scripts\ShareSocialMedia.js" />
+    <Content Include="Scripts\Util.js" />
+    <Content Include="Scripts\Validation.js" />
+    <Content Include="Signup.aspx" />
+    <Content Include="Student.aspx" />
+    <Content Include="Styles\Form.css" />
+    <Content Include="Styles\Global.css" />
+    <Content Include="Styles\Master.css" />
+    <Content Include="Styles\Modal.css" />
+    <Content Include="Styles\Paging.css" />
+    <Content Include="Styles\Print.css" />
+    <Content Include="Styles\Screen.css" />
+    <Content Include="Styles\Tipsy.css" />
+    <Content Include="Swf\Title.swf" />
+    <Content Include="TermsOfUse.aspx" />
+    <Content Include="UserActivation.aspx" />
+    <Content Include="UserApplications.aspx" />
+    <Content Include="UserControls\AboutUs\uAboutUs.ascx" />
+    <Content Include="UserControls\Advertisement\uAdvertisementList.ascx" />
+    <Content Include="UserControls\Advertisement\uAdvertisementThumbList.ascx" />
+    <Content Include="UserControls\Common\HelperControls\uDateDropDown.ascx" />
+    <Content Include="UserControls\Common\HelperControls\uNumericDropdown.ascx" />
+    <Content Include="UserControls\Common\uPagingPostback.ascx" />
+    <Content Include="UserControls\Common\uPaging.ascx" />
+    <Content Include="UserControls\Common\uPhoneNumber.ascx" />
+    <Content Include="UserControls\Common\uSendCv.ascx" />
+    <Content Include="UserControls\Common\uUserApplicationList.ascx" />
+    <Content Include="UserControls\Contact\uContact.ascx" />
+    <Content Include="UserControls\Content\uContentDetail.ascx" />
+    <Content Include="UserControls\Content\uContents.ascx" />
+    <Content Include="UserControls\Common\HelperControls\uEditViewControl.ascx" />
+    <Content Include="UserControls\Common\HelperControls\uItem.ascx" />
+    <Content Include="UserControls\Common\uCareerPlaningThumb.ascx" />
+    <Content Include="UserControls\Common\uJobThumb.ascx" />
+    <Content Include="UserControls\Common\uBanner.ascx" />
+    <Content Include="UserControls\Common\uLogin.ascx" />
+    <Content Include="UserControls\Advertisement\uAdvertisementDetail.ascx" />
+    <Content Include="UserControls\Advertisement\uAdvertisements.ascx" />
+    <Content Include="UserControls\Cv\Edit\uCVResult.ascx" />
+    <Content Include="UserControls\Cv\Edit\uMyPhoto.ascx" />
+    <Content Include="UserControls\Cv\Edit\uCVState.ascx" />
+    <Content Include="UserControls\Cv\Edit\uReferanceInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uExperienceInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uPositions.ascx" />
+    <Content Include="UserControls\Cv\Edit\uDrivingLicense.ascx" />
+    <Content Include="UserControls\Cv\Edit\uCourseInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uExamInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uCertificateInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uComputerInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uLanguagelInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uHighSchoolInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uUniversityInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uMasterInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uEducationState.ascx" />
+    <Content Include="UserControls\Cv\Edit\uUserClubs.ascx" />
+    <Content Include="UserControls\Cv\Edit\uCigaretteUsage.ascx" />
+    <Content Include="UserControls\Cv\Edit\uCityCountryInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uCommunicationInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uPersonalInfo.ascx" />
+    <Content Include="UserControls\Cv\Edit\uWelcome.ascx" />
+    <Content Include="UserControls\Cv\uCv.ascx" />
+    <Content Include="UserControls\Cv\uCvForm.ascx" />
+    <Content Include="UserControls\Cv\Edit\uCvFormNavigation.ascx" />
+    <Content Include="UserControls\Firm\uAdvertisementForm.ascx" />
+    <Content Include="UserControls\Firm\uFirm.ascx" />
+    <Content Include="UserControls\Firm\uFirmAdvertisementList.ascx" />
+    <Content Include="UserControls\Firm\uFirmAdvertisements.ascx" />
+    <Content Include="UserControls\Firm\uFirmApplicationList.ascx" />
+    <Content Include="UserControls\Firm\uFirmApplications.ascx" />
+    <Content Include="UserControls\Firm\uFirmDetail.ascx" />
+    <Content Include="UserControls\Firm\uFirmLogin.ascx" />
+    <Content Include="UserControls\Firm\uFirmSignup.ascx" />
+    <Content Include="UserControls\Firm\uUserList.ascx" />
+    <Content Include="UserControls\Firm\uUsers.ascx" />
+    <Content Include="UserControls\Firm\uUserSearch.ascx" />
+    <Content Include="UserControls\Lists\uAllFirms.ascx" />
+    <Content Include="UserControls\Main\uStudent.ascx" />
+    <Content Include="UserControls\Main\uMain.ascx" />
+    <Content Include="UserControls\Main\uMainAnnouncements.ascx" />
+    <Content Include="UserControls\Master\uNavigation.ascx" />
+    <Content Include="UserControls\Master\uSurvey.ascx" />
+    <Content Include="UserControls\Master\uFooter.ascx" />
+    <Content Include="UserControls\Master\uLoginArea.ascx" />
+    <Content Include="UserControls\Master\uSearchBar.ascx" />
+    <Content Include="UserControls\Search\uSearch.ascx" />
+    <Content Include="UserControls\Signup\uSignup.ascx" />
+    <Content Include="UserControls\SiteParamControls\uWorkingExperiences.ascx" />
+    <Content Include="UserControls\SiteParamControls\uWorkingStatus.ascx" />
+    <Content Include="UserControls\SiteParamControls\uWorkerCounts.ascx" />
+    <Content Include="UserControls\SiteParamControls\uExperienceCount.ascx" />
+    <Content Include="UserControls\SiteParamControls\uWorkingType.ascx" />
+    <Content Include="UserControls\SiteParamControls\uPersonalCount.ascx" />
+    <Content Include="UserControls\SiteParamControls\uExams.ascx" />
+    <Content Include="UserControls\SiteParamControls\uLanguages.ascx" />
+    <Content Include="UserControls\SiteParamControls\uAdvertisementTypes.ascx" />
+    <Content Include="UserControls\SiteParamControls\uCertificateTypes.ascx" />
+    <Content Include="UserControls\SiteParamControls\uCigaretteUseTypes.ascx" />
+    <Content Include="UserControls\SiteParamControls\uCities.ascx" />
+    <Content Include="UserControls\SiteParamControls\uCityCountry.ascx" />
+    <Content Include="UserControls\SiteParamControls\uContactTypes.ascx" />
+    <Content Include="UserControls\SiteParamControls\uCountries.ascx" />
+    <Content Include="UserControls\SiteParamControls\uEducationGradeSystem.ascx" />
+    <Content Include="UserControls\SiteParamControls\uEducationStates.ascx" />
+    <Content Include="UserControls\SiteParamControls\uGenders.ascx" />
+    <Content Include="UserControls\SiteParamControls\uGsClubs.ascx" />
+    <Content Include="UserControls\SiteParamControls\uLicenseEducationType.ascx" />
+    <Content Include="UserControls\SiteParamControls\uMaritalStatus.ascx" />
+    <Content Include="UserControls\SiteParamControls\uPositions.ascx" />
+    <Content Include="UserControls\SiteParamControls\uSectors.ascx" />
+    <Content Include="UserControls\SiteParamControls\uUniversities.ascx" />
+    <Content Include="UserControls\SiteParamControls\uUniversityDepartments.ascx" />
+    <Content Include="UserControls\SiteParamControls\uUniversityInstitute.ascx" />
+    <Content Include="UserControls\TermsOfUse\uTermsOfUse.ascx" />
+    <Content Include="UserControls\User\uUserActivation.ascx" />
+    <Content Include="UserControls\User\uUserApplications.ascx" />
+    <Content Include="UserControls\User\uUserFrontPosts.ascx" />
+    <Content Include="UserFrontPosts.aspx" />
+    <Content Include="Users.aspx" />
+    <Content Include="UserSearch.aspx" />
+    <Content Include="_Bin\AjaxControlToolkit.dll" />
+    <Content Include="_Bin\CalendarExtenderPlus.dll" />
+    <Content Include="_Private\Password.aspx" />
+    <Content Include="_Private\test.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Styles\ve-2607.tmp" />
+    <None Include="Styles\ve-9EDD.tmp" />
+    <None Include="Styles\ve-BC38.tmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Classes\" />
+    <Folder Include="Images\ModalPopup\" />
+    <Folder Include="Images\Navigation\" />
+    <Folder Include="Images\_U\Duyurular\Original\" />
+    <Folder Include="Images\_U\KariyerPlanlama\BasariHikayeleri\Original\" />
+    <Folder Include="Images\_U\KariyerPlanlama\Makaleler\Default\" />
+    <Folder Include="Images\_U\KariyerPlanlama\Makaleler\Original\" />
+    <Folder Include="Images\_U\KariyerPlanlama\Roportajlar\Default\" />
+    <Folder Include="Images\_U\KariyerPlanlama\Roportajlar\Original\" />
+    <Folder Include="Images\_U\Users\Original\" />
+    <Folder Include="Images\_U\Users\Thumb\" />
+    <Folder Include="Xml\" />
+    <Folder Include="_Offline\ComingSoon\" />
+    <Folder Include="_Offline\UnderConstruction\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>82</DevelopmentServerPort>
+          <DevelopmentServerVPath>/GsuKariyer/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/GSUKariyer</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

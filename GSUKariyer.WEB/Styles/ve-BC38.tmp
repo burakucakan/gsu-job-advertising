@@ -1,0 +1,19 @@
+/* MASTER CSS */
+
+body { background: #FFF url('../Images/Screen/Back.jpg') no-repeat top center; margin: 13px 0 0; text-align: center; }
+ins { clear: both; display: block; height: 0; }
+div { font: normal 11px Tahoma; }
+
+
+.Container { margin: 0 auto; width: 987px; }
+.Logo { background: url('../Images/Screen/GsuLogo.gif') no-repeat top left; float: left; height: 88px; width: 312px; text-indent: -99999px; }
+
+
+.SearchBar { color: #FFF; margin-top: 22px; }
+.SearchBar div { height: 37px; } 
+.SearchBar .SearchBarLeft { background: url('../Images/SearchBar/Left.jpg') no-repeat top left; float: left; width: 9px; }
+.SearchBar .SearchBarRight { background: url('../Images/SearchBar/Right.jpg') no-repeat top right; float: right; width: 9px; }
+.SearchBar .SearchBarContent { background: url('../Images/SearchBar/Back.jpg') repeat-x; display: block; float: left; padding: 8px 0 7px 0; width: 969px; }
+.SearchBar .SearchBarContent .SearchBarContentTitle { float: left; width: 132px; }
+.SearchBar .SearchBarContent .SearchBarContentDetail { float: right; width: 121px; }
+.SearchBar .SearchBarContent .SearchBarContentForm {}

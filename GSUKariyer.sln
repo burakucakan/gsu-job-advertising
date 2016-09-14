@@ -1,0 +1,224 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSUKariyer.WEB", "GSUKariyer.WEB\GSUKariyer.WEB.csproj", "{24277886-D2BD-4264-8710-926FA4A16772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSUKariyer.BUS", "GSUKariyer.BUS\GSUKariyer.BUS.csproj", "{023DE6D1-37A5-4EE0-B058-559971415F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSUKariyer.DAL", "GSUKariyer.DAL\GSUKariyer.DAL.csproj", "{52A7D6C0-712A-4929-8E78-311A6F401123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSUKariyer.COMMON", "GSUKariyer.COMMON\GSUKariyer.COMMON.csproj", "{35AF797C-4467-479E-A1DE-3B11E69BF164}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project Files", "Project Files", "{A13D9074-413B-4099-991F-9890BE309C7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ajax", "Ajax", "{965FC9E4-9070-4F1A-BA93-185D7DE93988}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logo", "Logo", "{1EF37A25-C4A0-43F4-B3FA-DEB90A90BD11}"
+	ProjectSection(SolutionItems) = preProject
+		F:\GsuKariyer\ProjectFiles\Logo\gsu kariyer logo.ai = F:\GsuKariyer\ProjectFiles\Logo\gsu kariyer logo.ai
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analysis", "Analysis", "{5B08060F-338A-4984-B94A-9C0DBD88EAEF}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectFiles\Analysis\GSUKariyer.doc = ProjectFiles\Analysis\GSUKariyer.doc
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backup", "Backup", "{686A69D9-1A6E-4193-B9F7-E3321DC50F84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{FA4DFF98-9F6C-44F0-844A-A5CAA4B90D3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Html", "Html", "{D5C5B369-19DB-41DE-939D-8B6F5DF5D64D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{B4272B36-6DD0-43AC-BAF7-95D0D13D1375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{8744D10D-3288-4DDC-9525-100FDBAD4C79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{BC0DB603-4EC1-4860-B0CE-B1FD2372C228}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{231A0B21-7FEC-406C-9807-E53D2DF6384A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{39EFB4D8-027B-4507-836F-A17998AC713C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FLA", "FLA", "{EAE59555-031B-4D5D-87FB-F8EC1C8D7BA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{3B1F141A-5AC7-4C52-BE8B-E0CB0A4AAD8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JPG", "JPG", "{44DDF17D-1032-461A-A09F-38CDED67D641}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PSD", "PSD", "{FA359EA7-A1D6-4B89-AC6D-FF5BA7E305A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SWF", "SWF", "{BA97DA19-5E77-44DB-9BFC-D2DC90070D39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{0D119AE5-AE80-4C69-9959-FACC8FE843D3}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectFiles\DLL\AjaxControlToolkit.dll = ProjectFiles\DLL\AjaxControlToolkit.dll
+		ProjectFiles\DLL\ExcelPackage.dll = ProjectFiles\DLL\ExcelPackage.dll
+		ProjectFiles\DLL\ICSharpCode.SharpZipLib.dll = ProjectFiles\DLL\ICSharpCode.SharpZipLib.dll
+		ProjectFiles\DLL\RadCalendar.Net2.dll = ProjectFiles\DLL\RadCalendar.Net2.dll
+		ProjectFiles\DLL\RadInput.Net2.dll = ProjectFiles\DLL\RadInput.Net2.dll
+		ProjectFiles\DLL\RadTabStrip.Net2.dll = ProjectFiles\DLL\RadTabStrip.Net2.dll
+		ProjectFiles\DLL\RadTreeView.Net2.dll = ProjectFiles\DLL\RadTreeView.Net2.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{8B9124AA-1C1F-4CFB-89F2-E49E7E55B819}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectFiles\Files\ ÜYELİK FORMU.doc = ProjectFiles\Files\ ÜYELİK FORMU.doc
+		ProjectFiles\Files\cv_fr.doc = ProjectFiles\Files\cv_fr.doc
+		ProjectFiles\Files\cv_ing.doc = ProjectFiles\Files\cv_ing.doc
+		ProjectFiles\Files\cv_turkce.doc = ProjectFiles\Files\cv_turkce.doc
+		ProjectFiles\Files\Enstitü ve bölümler listesi.docx = ProjectFiles\Files\Enstitü ve bölümler listesi.docx
+		ProjectFiles\Files\Filtreleme Kriterleri.docx = ProjectFiles\Files\Filtreleme Kriterleri.docx
+		ProjectFiles\Files\Gizlilik Prensipleri.docx = ProjectFiles\Files\Gizlilik Prensipleri.docx
+		ProjectFiles\Files\GSÜ Kulüp Listesi.docx = ProjectFiles\Files\GSÜ Kulüp Listesi.docx
+		ProjectFiles\Files\Hakkımızda.docx = ProjectFiles\Files\Hakkımızda.docx
+		ProjectFiles\Files\Kullanıcılara yollanacak mailler.docx = ProjectFiles\Files\Kullanıcılara yollanacak mailler.docx
+		ProjectFiles\Files\Kullanım Şartları.docx = ProjectFiles\Files\Kullanım Şartları.docx
+		ProjectFiles\Files\Pozisyonlar Listesi.docx = ProjectFiles\Files\Pozisyonlar Listesi.docx
+		ProjectFiles\Files\SEKTÖRLER LİSTESİ.docx = ProjectFiles\Files\SEKTÖRLER LİSTESİ.docx
+		ProjectFiles\Files\İletişim.docx = ProjectFiles\Files\İletişim.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{794FB3B3-3953-4527-BB5A-7B1C015F92CC}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectFiles\Images\EV112.JPG = ProjectFiles\Images\EV112.JPG
+		ProjectFiles\Images\EV156.JPG = ProjectFiles\Images\EV156.JPG
+		ProjectFiles\Images\GE117_350A.jpg = ProjectFiles\Images\GE117_350A.jpg
+		ProjectFiles\Images\GE118_350A.jpg = ProjectFiles\Images\GE118_350A.jpg
+		ProjectFiles\Images\Gradient.jpg = ProjectFiles\Images\Gradient.jpg
+		ProjectFiles\Images\Gradient2.jpg = ProjectFiles\Images\Gradient2.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Brands", "Brands", "{EFEAF1A7-09F3-4F36-9035-0D4A2B47E2A0}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectFiles\Images\Brands\GetLogo.aspx (1).gif = ProjectFiles\Images\Brands\GetLogo.aspx (1).gif
+		ProjectFiles\Images\Brands\GetLogo.aspx (1).jpg = ProjectFiles\Images\Brands\GetLogo.aspx (1).jpg
+		ProjectFiles\Images\Brands\GetLogo.aspx (2).jpg = ProjectFiles\Images\Brands\GetLogo.aspx (2).jpg
+		ProjectFiles\Images\Brands\GetLogo.aspx.gif = ProjectFiles\Images\Brands\GetLogo.aspx.gif
+		ProjectFiles\Images\Brands\GetLogo.aspx.jpg = ProjectFiles\Images\Brands\GetLogo.aspx.jpg
+		ProjectFiles\Images\Brands\GetLogos.aspx (1).gif = ProjectFiles\Images\Brands\GetLogos.aspx (1).gif
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{1DC3C98C-3F90-4457-A190-2AC9694B3962}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectFiles\Notes\Notes.txt = ProjectFiles\Notes\Notes.txt
+		ProjectFiles\Notes\Sizes.txt = ProjectFiles\Notes\Sizes.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Passwords", "Passwords", "{9F3054CC-B3D1-476A-A9B0-13DD4512E21B}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectFiles\Passwords\DB.txt = ProjectFiles\Passwords\DB.txt
+		ProjectFiles\Passwords\Ftp.txt = ProjectFiles\Passwords\Ftp.txt
+		ProjectFiles\Passwords\Mails.txt = ProjectFiles\Passwords\Mails.txt
+		ProjectFiles\Passwords\Server Info.txt = ProjectFiles\Passwords\Server Info.txt
+		ProjectFiles\Passwords\SourceControl.txt = ProjectFiles\Passwords\SourceControl.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{5FE31E52-073D-489A-9C50-8F2906DCC62F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{94205C50-C539-47C9-BED7-0C0446B2F2DE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo 1.jpg = ..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo 1.jpg
+		..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo 2.jpg = ..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo 2.jpg
+		..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo 2.psd = ..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo 2.psd
+		..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo 3.jpg = ..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo 3.jpg
+		..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo 3.psd = ..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo 3.psd
+		..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo.psd = ..\..\Users\J\Desktop\Gsu\DOC\Logo\sunum\psd\gsu logo.psd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{60B0B23B-9D7C-468C-B81F-D053BB52B012}"
+	ProjectSection(SolutionItems) = preProject
+		GSUKariyer.WEB\Images\Global\Answered.gif = GSUKariyer.WEB\Images\Global\Answered.gif
+		GSUKariyer.WEB\Images\Global\NotViewed.gif = GSUKariyer.WEB\Images\Global\NotViewed.gif
+		GSUKariyer.WEB\Images\Global\Viewed.gif = GSUKariyer.WEB\Images\Global\Viewed.gif
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GSUKariyerAdmin", "GSUKariyerAdmin\", "{6DA92ADB-A60C-4074-81D0-780E1060AB23}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "Svn"
+		SccAuxPath = "Svn"
+		SccLocalPath = "Svn"
+		SccProvider = "SubversionScc"
+		TargetFramework = "3.5"
+		ProjectReferences = "{023DE6D1-37A5-4EE0-B058-559971415F73}|GSUKariyer.BUS.dll;{35AF797C-4467-479E-A1DE-3B11E69BF164}|GSUKariyer.COMMON.dll;{52A7D6C0-712A-4929-8E78-311A6F401123}|GSUKariyer.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/GSUKariyerAdmin"
+		Debug.AspNetCompiler.PhysicalPath = "GSUKariyerAdmin\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\GSUKariyerAdmin\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/GSUKariyerAdmin"
+		Release.AspNetCompiler.PhysicalPath = "GSUKariyerAdmin\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\GSUKariyerAdmin\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3614"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{24277886-D2BD-4264-8710-926FA4A16772} = {24277886-D2BD-4264-8710-926FA4A16772}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24277886-D2BD-4264-8710-926FA4A16772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24277886-D2BD-4264-8710-926FA4A16772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24277886-D2BD-4264-8710-926FA4A16772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24277886-D2BD-4264-8710-926FA4A16772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023DE6D1-37A5-4EE0-B058-559971415F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023DE6D1-37A5-4EE0-B058-559971415F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023DE6D1-37A5-4EE0-B058-559971415F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023DE6D1-37A5-4EE0-B058-559971415F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A7D6C0-712A-4929-8E78-311A6F401123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A7D6C0-712A-4929-8E78-311A6F401123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A7D6C0-712A-4929-8E78-311A6F401123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A7D6C0-712A-4929-8E78-311A6F401123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AF797C-4467-479E-A1DE-3B11E69BF164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AF797C-4467-479E-A1DE-3B11E69BF164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AF797C-4467-479E-A1DE-3B11E69BF164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AF797C-4467-479E-A1DE-3B11E69BF164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA92ADB-A60C-4074-81D0-780E1060AB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA92ADB-A60C-4074-81D0-780E1060AB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA92ADB-A60C-4074-81D0-780E1060AB23}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA92ADB-A60C-4074-81D0-780E1060AB23}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{965FC9E4-9070-4F1A-BA93-185D7DE93988} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{1EF37A25-C4A0-43F4-B3FA-DEB90A90BD11} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{5B08060F-338A-4984-B94A-9C0DBD88EAEF} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{686A69D9-1A6E-4193-B9F7-E3321DC50F84} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{BC0DB603-4EC1-4860-B0CE-B1FD2372C228} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{231A0B21-7FEC-406C-9807-E53D2DF6384A} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{39EFB4D8-027B-4507-836F-A17998AC713C} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{0D119AE5-AE80-4C69-9959-FACC8FE843D3} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{8B9124AA-1C1F-4CFB-89F2-E49E7E55B819} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{794FB3B3-3953-4527-BB5A-7B1C015F92CC} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{1DC3C98C-3F90-4457-A190-2AC9694B3962} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{9F3054CC-B3D1-476A-A9B0-13DD4512E21B} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{5FE31E52-073D-489A-9C50-8F2906DCC62F} = {A13D9074-413B-4099-991F-9890BE309C7A}
+		{94205C50-C539-47C9-BED7-0C0446B2F2DE} = {1EF37A25-C4A0-43F4-B3FA-DEB90A90BD11}
+		{FA4DFF98-9F6C-44F0-844A-A5CAA4B90D3C} = {686A69D9-1A6E-4193-B9F7-E3321DC50F84}
+		{D5C5B369-19DB-41DE-939D-8B6F5DF5D64D} = {686A69D9-1A6E-4193-B9F7-E3321DC50F84}
+		{B4272B36-6DD0-43AC-BAF7-95D0D13D1375} = {686A69D9-1A6E-4193-B9F7-E3321DC50F84}
+		{8744D10D-3288-4DDC-9525-100FDBAD4C79} = {686A69D9-1A6E-4193-B9F7-E3321DC50F84}
+		{60B0B23B-9D7C-468C-B81F-D053BB52B012} = {686A69D9-1A6E-4193-B9F7-E3321DC50F84}
+		{EAE59555-031B-4D5D-87FB-F8EC1C8D7BA0} = {39EFB4D8-027B-4507-836F-A17998AC713C}
+		{3B1F141A-5AC7-4C52-BE8B-E0CB0A4AAD8B} = {39EFB4D8-027B-4507-836F-A17998AC713C}
+		{44DDF17D-1032-461A-A09F-38CDED67D641} = {39EFB4D8-027B-4507-836F-A17998AC713C}
+		{FA359EA7-A1D6-4B89-AC6D-FF5BA7E305A8} = {39EFB4D8-027B-4507-836F-A17998AC713C}
+		{BA97DA19-5E77-44DB-9BFC-D2DC90070D39} = {39EFB4D8-027B-4507-836F-A17998AC713C}
+		{EFEAF1A7-09F3-4F36-9035-0D4A2B47E2A0} = {794FB3B3-3953-4527-BB5A-7B1C015F92CC}
+	EndGlobalSection
+EndGlobal

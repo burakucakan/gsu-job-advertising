@@ -1,0 +1,3 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="uNumericDropdown.ascx.cs" Inherits="GSUKariyer.WEB.UserControls.Common.HelperControls.uNumericDropdown" %>
+<asp:DropDownList ID="ddlNumbers" runat="server"></asp:DropDownList>
+<asp:RequiredFieldValidator ID="rfvNumbers" Display="Dynamic" runat="server" ErrorMessage="*" ControlToValidate="ddlNumbers" ValidationGroup="vgNumbers" Enabled="false"></asp:RequiredFieldValidator>

@@ -1,0 +1,95 @@
+/* GLOBAL CSS */
+
+.SubPage { float: left; width: 695px; }
+.SubPageWide { float: left; width: 825px; }
+
+.SubPage, .SubPageWide { background: #FFF; float: left; min-height: 650px; text-align: right; padding: 10px 10px; }
+.SubPage ins, .SubPageWide ins { height: 15px; }
+
+.fLeft { float: left; }
+.fRight { float: right; }
+
+span.TopDesc { float: left; padding-top: 5px; text-align: left; }
+a.Und { font-weight: bold; border-bottom: dotted 1px #e0b942; padding-bottom: 3px; }
+a.Und:hover { border-bottom-color: #6b5308; }
+a.Flu { opacity: 0.5; FILTER: alpha(opacity:50); }
+
+
+.aDel { background: #FFF url('../Images/Global/X.png') no-repeat left center; font-weight: bold; margin-right: 10px; padding: 0 0 1px 15px; text-decoration: none; }
+.aDel:hover { text-decoration: underline; }
+.aEdit { background: #FFF url('../Images/Global/Edit.png') no-repeat left center; font-weight: bold; margin-right: 10px; padding:0 0 1px 16px; text-decoration: none; }
+.aEdit:hover { text-decoration: underline; }
+.aGroup { background: #ff5959; color: #FFF; font: bold 12px Trebuchet Ms; padding: 7px 15px; }
+.aGroup:hover { color: #FFF; background: #b12c2c; }
+.aCheck { background: #FFF url('../Images/Global/CheckPassive.png') no-repeat left center; display: block; height: 15px; width: 26px; }
+.aCheck:hover { background-image: url('../Images/Global/Check.png'); }
+.aActive { background: #FFF url('../Images/Global/Active.png') no-repeat left center; display: block; height: 20px; width: 26px; }
+.aActive:hover { background-image: url('../Images/Global/Passive.png'); }
+.aPassive { background: #FFF url('../Images/Global/Passive.png') no-repeat left center; display: block; height: 20px; width: 26px; }
+.aPassive:hover { background-image: url('../Images/Global/Active.png'); }
+
+
+.Banner { float: right; text-align: right; width: 130px; }
+
+a.JobThumb { background: #FFF; color: #000; display: block; float: left; height: 140px; padding: 0 9px 0 7px; text-align: left; text-decoration: none; width: 123px; }
+a.JobThumb:hover { color: #38022c; text-decoration: underline; }
+a.JobThumb img { display: block; height: 57px; margin-bottom: 8px; width: 126px; }
+a.JobThumb span { border-top: dotted 1px #c1c1c1; display: block; font-weight: bold; padding: 8px 0 0; width: 120px; }
+
+
+a.Content { border-bottom: dotted 1px #c1c1c1; color: inherit; display: block; font: inherit; line-height: 1.28em; margin-bottom: 5px; min-height: 50px; padding: 12px 0 6px; text-decoration: none;  }
+a.Content:hover { background: #FFF url('../Images/Global/MoreArrow.gif') no-repeat 94% 35px; color: #000; text-decoration: none; }
+a.Content b { display: block; }
+a.Content p { padding-top: 2px; margin: 0; width: 90%; }
+a.Content img { float: left; margin: 2px 10px; width: 46px; }
+
+
+.CareerPlanning { border-right: dotted 1px #c1c1c1; float: right; min-height: 155px; padding-right: 10px; text-align: right; width: 220px; }
+.CareerPlanning b { display: block; }
+.CareerPlanning img { float: right; margin: 0 0 12px 8px; }
+.CareerPlanning ins { height: 0; }
+
+
+.Form { color: #13181a; display: block; float: left; text-align: left; width: 95%; }
+.Form p { clear: both; display: block; margin: 12px 0 5px; padding: 0; }
+.Form p.Free { color: #877c7c; }
+.Form span { border-top: solid 2px #fdba6b; background: #FFF; clear: both; color: #F30000; display: block; float: left; font: normal 11px Tahoma; padding: 4px 8px 4px; position: absolute; z-index: 2px; margin: -45px 2px 0 0; }
+.Form span.errTextArea {  margin: -19px 2px 0 0; }
+.Form span.errCustom {  margin: -10px 2px 0 0; }
+.Form span.errSiteParams {  margin: -21px 2px 0 0; }
+.Form strong { background: #fbff8d; color: #1b1b13; display: block; font-weight: normal; padding: 8px; }
+.Form input[type="image"] { float: right; margin: 20px 5px 10px; }
+.Form a { border-bottom: dotted 1px #3e4c56; float: left; font: normal 11px Tahoma; min-height: 15px; padding: 0;}
+.Form a:hover { border-bottom: dotted 1px #0b3f67; text-decoration: none; }
+
+
+.Success, .Error { background-color: #FFF; background-repeat: no-repeat; background-position: 7px 7px; border-left: dotted 1px #FFF; font: normal 12px Trebuchet Ms; display: block; padding: 7px 7px 7px 30px; text-align: justify; }
+.Success { background-image: url('../Images/Global/Success.gif'); border-left-color: #0275ce; color: #2c1f02; }
+.Error { background-image: url('../Images/Global/Error.gif'); border-left-color: #FF0000; color: #ce0202; }
+
+
+.Item { clear: both; float: left; padding: 3px 0; }
+.Item span { background: #fffd59; display: block; float: right; margin: 0; padding: 6px 5px; }
+.Item a { background: #fffd59 none no-repeat center center; display: block; float: right; height: 20px; margin: 0; padding: 4px 8px 1px 2px; width: 12px;  }
+.Item a.ItemRemove { background-image: url('../Images/Global/X.png'); }
+.Item a.ItemView { background-image: url('../Images/Global/View.png'); }
+.Item a.ItemEdit { background-image: url('../Images/Global/Edit.png'); }
+
+
+.Panel { border: dotted 1px #f89d27; color: #000; line-height: 180%; padding: 15px; text-align: left; }
+.Panel h2 { margin-top: -40px; position: absolute; }
+.Panel select { width: auto; }
+
+
+.Grid { text-align: left; width: 100%; }
+.Grid td { border-bottom: solid 1px #f2f5f7; padding-left: 10px; height: 33px; }
+.GridHeader { background: #f2f5f7; color: #0b2629; font: bold 12px Tahoma; }
+
+
+.ContentDetail ins { height: 12px; }
+.ContentDetail div { float: left; margin-right: 18px; padding: 12px 0 10px; }
+.ContentDetail div img { text-align: left; }
+.ContentDetail p { line-height: 140%; text-align: justify; }
+
+
+.List { text-align: left; }

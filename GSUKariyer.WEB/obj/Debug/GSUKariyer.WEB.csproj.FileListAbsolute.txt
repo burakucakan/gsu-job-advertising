@@ -1,0 +1,14 @@
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\GSUKariyer.WEB.dll
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\GSUKariyer.WEB.pdb
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\AjaxControlToolkit.dll
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\CalendarExtenderPlus.dll
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\GSUKariyer.BUS.dll
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\GSUKariyer.COMMON.dll
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\ICSharpCode.SharpZipLib.dll
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\GSUKariyer.DAL.dll
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\GSUKariyer.COMMON.pdb
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\GSUKariyer.DAL.pdb
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\bin\GSUKariyer.BUS.pdb
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\obj\Debug\ResolveAssemblyReference.cache
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\obj\Debug\GSUKariyer.WEB.dll
+D:\PRJ\GsuKariyer\GSUKariyer.WEB\obj\Debug\GSUKariyer.WEB.pdb

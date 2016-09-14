@@ -1,0 +1,136 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="GSUKariyer.WEB._DefMaster" %>
+
+<%@ Register src="~/UserControls/Master/uLoginArea.ascx" tagname="uLoginArea" tagprefix="uc1" %>
+<%@ Register src="~/UserControls/Master/uSearchBar.ascx" tagname="uSearchBar" tagprefix="uc2" %>
+<%@ Register src="~/UserControls/Master/uNavigation.ascx" tagname="uNavigation" tagprefix="uc3" %>
+<%@ Register src="~/UserControls/Master/uSurvey.ascx" tagname="uSurvey" tagprefix="uc4" %>
+<%@ Register src="~/UserControls/Master/uFooter.ascx" tagname="uFooter" tagprefix="uc5" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+    <title> Galatasaray Üniversitesi Kariyer Platformu </title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1254" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+    <meta http-equiv="Content-Language" content="tr" />
+    
+	<meta name="Language" content="Turkish" />
+	<meta name="AUTHOR" content="Bgapartners.net" />
+					
+	<meta http-equiv="reply-to" content="info@gsukariyer.com" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<meta name="description" content=" -- " />
+	<meta name="keywords" content=" -- " />
+	<meta name="Copyright" content="info@gsukariyer.com" />
+	<meta name="audience" content="all" />
+	<meta name="Robots" content="all" />
+	<meta name="revisit-after" content="1 Day" />
+	
+	<link rel="shortcut icon" href="Images/GsuFav.ico" type="image/ico" />
+    
+    <link rel="stylesheet" type="text/css"  href="Styles/Master.css" />
+    <link rel="stylesheet" type="text/css"  href="Styles/Form.css" />
+    <link rel="stylesheet" type="text/css"  href="Styles/Global.css" />
+    <link rel="stylesheet" type="text/css"  href="Styles/Screen.css" />
+    
+    <link rel="stylesheet" type="text/css"  href="Styles/Modal.css" />
+    <link rel="stylesheet" type="text/css"  href="Styles/Paging.css" />
+    <link rel="stylesheet" type="text/css"  href="Styles/Tipsy.css" />
+    
+    <link rel="stylesheet" type="text/css"  href="Styles/Print.css" media="print" />
+    
+</head>
+
+<body>
+
+<noscript>
+  <table bgcolor="#FFFFFF" width="100%" height="4000" style="position: absolute; z-index: 25;">
+    <tr>
+      <td valign="top" style="padding: 30px">
+        <hr />
+          <b>LUTFEN JAVASCRIPT AYARLARINIZI ACINIZ !.. </b>
+          <br />
+          <hr />
+          </td>
+    </tr>
+  </table>
+  <META HTTP-EQUIV="refresh" content="3;URL=http://www.google.com" />
+</noscript>
+
+    <form id="form1" runat="server">
+    
+    <asp:ScriptManager id="ScrMng1" runat="server" AsyncPostBackTimeout="3600"
+        AsyncPostBackErrorMessage="Hata Oluştu! Lütfen Daha Sonra Tekrar Deneyiniz"
+        EnablePageMethods="true"
+        EnableScriptLocalization="true"
+        EnableScriptGlobalization="true"    
+        ScriptMode="Release">
+
+        <Scripts>
+            <asp:ScriptReference Path="~/Scripts/Util.js" />
+            <asp:ScriptReference Path="~/Scripts/Validation.js" />            
+            
+            <asp:ScriptReference Path="~/Scripts/Custom.js" />
+            
+            <asp:ScriptReference Path="~/Scripts/Jquery/jquery-1.3.2.min.js" />
+            <asp:ScriptReference Path="~/Scripts/Jquery/jquery.flash.js" />            
+            <asp:ScriptReference Path="~/Scripts/Jquery/jquery.sifr.js" />
+            <asp:ScriptReference Path="~/Scripts/Jquery/jquery.tipsy.js" />
+            
+            <asp:ScriptReference Path="~/Scripts/JqueryInit.js" />
+
+            <asp:ScriptReference Path="~/Scripts/Analytics.js" />
+        </Scripts>
+
+    </asp:ScriptManager>        
+
+   <div class="Container">
+    
+        <asp:HyperLink runat="server" ID="hlLogo" CssClass="Logo" NavigateUrl="#">Galatasaray Üniversitesi Kariyer Platformu</asp:HyperLink>
+            
+        <uc1:uLoginArea ID="uLoginArea1" runat="server"/>
+        
+        <ins></ins>
+    
+        <uc2:uSearchBar ID="uSearchBar1" runat="server" />
+    
+        <ins></ins>       
+        
+        <div class="Left">
+
+            <uc3:uNavigation ID="uNavigation1" runat="server" />
+            
+            <ins></ins>
+                
+            <uc4:uSurvey ID="uSurvey1" runat="server" />
+            
+        </div>       
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    
+        <ins></ins>
+        
+        <uc5:uFooter ID="uFooter1" runat="server" />
+    
+   </div>            
+
+    </form>
+
+ 
+	<script type="text/javascript">
+	    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script> 
+	<script type="text/javascript">
+	    try {
+	        var pageTracker = _gat._getTracker("UA-15449809-1");
+	        pageTracker._trackPageview();
+	    } catch (err) { }
+	</script> 
+	
+</body>
+</html>

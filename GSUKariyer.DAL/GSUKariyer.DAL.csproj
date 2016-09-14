@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{52A7D6C0-712A-4929-8E78-311A6F401123}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GSUKariyer.DAL</RootNamespace>
+    <AssemblyName>GSUKariyer.DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminLoginProvider.cs" />
+    <Compile Include="AdminPermissionsProvider.cs" />
+    <Compile Include="AdvertisementApplicationsProvider.cs" />
+    <Compile Include="AdvertisementsProvider.cs" />
+    <Compile Include="BannerFilesProvider.cs" />
+    <Compile Include="BannersProvider.cs" />
+    <Compile Include="GeneratedProviders\CVExams.Generated.cs" />
+    <Compile Include="GeneratedProviders\SentCvsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\SurveyResultsProvider.cs" />
+    <Compile Include="SentCvsProvider.cs" />
+    <Compile Include="SurveyItemsProvider.cs" />
+    <Compile Include="GeneratedProviders\SurveyItemsProvider.cs" />
+    <Compile Include="GeneratedProviders\SurveysProvider.cs" />
+    <Compile Include="SiteParamsProvider.cs" />
+    <Compile Include="CVCertificateInfoProvider.cs" />
+    <Compile Include="CVCourseInfoProvider.cs" />
+    <Compile Include="CVInterestedJobPositonsProvider.cs" />
+    <Compile Include="CVLanguageInfoProvider.cs" />
+    <Compile Include="CVReferancesProvider.cs" />
+    <Compile Include="CVsProvider.cs" />
+    <Compile Include="CVUniversityClubsProvider.cs" />
+    <Compile Include="CVWorkExperiencesProvider.cs" />
+    <Compile Include="CVWorkPlacesProvider.cs" />
+    <Compile Include="FirmMessageTemplatesProvider.cs" />
+    <Compile Include="FirmsProvider.cs" />
+    <Compile Include="FirmUsersProvider.cs" />
+    <Compile Include="GeneratedProviders\AdvertisementApplicationsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\AdvertisementsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\BannerFilesProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\BannersProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\SiteParamsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\CVCertificateInfoProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\CVCourseInfoProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\CVInterestedJobPositonsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\CVLanguageInfoProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\CVReferancesProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\CVsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\CVUniversityClubsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\CVWorkExperiencesProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\CVWorkPlacesProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\FirmMessageTemplatesProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\FirmsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\FirmUsersProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\MainPageContentsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\SiteContentsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\UserEmailsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\UserFollowedFirmsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\UserFrontPostsProvider.Generated.cs" />
+    <Compile Include="GeneratedProviders\UsersProvider.Generated.cs" />
+    <Compile Include="MainPageContentsProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiteContentsProvider.cs" />
+    <Compile Include="SurveyResultsProvider.cs" />
+    <Compile Include="SurveysProvider.cs" />
+    <Compile Include="UserEmailsProvider.cs" />
+    <Compile Include="UserFollowedFirmsProvider.cs" />
+    <Compile Include="UserFrontPostsProvider.cs" />
+    <Compile Include="UsersProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GSUKariyer.COMMON\GSUKariyer.COMMON.csproj">
+      <Project>{35AF797C-4467-479E-A1DE-3B11E69BF164}</Project>
+      <Name>GSUKariyer.COMMON</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{023DE6D1-37A5-4EE0-B058-559971415F73}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GSUKariyer.BUS</RootNamespace>
+    <AssemblyName>GSUKariyer.BUS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminLogin.cs" />
+    <Compile Include="AdminPermissions.cs" />
+    <Compile Include="AdminSiteParams.cs" />
+    <Compile Include="AdvertisementApplications.cs" />
+    <Compile Include="Advertisements.cs" />
+    <Compile Include="Advertisements\AdvertisementsPage.cs" />
+    <Compile Include="Advertisements\DateOption.cs" />
+    <Compile Include="Advertisements\PopularCriterias.cs" />
+    <Compile Include="Advertisements\SearchHelper.cs" />
+    <Compile Include="Advertisements\SearchPage.cs" />
+    <Compile Include="BannerFiles.cs" />
+    <Compile Include="Banners.cs" />
+    <Compile Include="Cv\CigaretteUsageInfo.cs" />
+    <Compile Include="Cv\Viewer.cs" />
+    <Compile Include="Cv\DrivingLicenseInfo.cs" />
+    <Compile Include="Cv\ExamInfo.cs" />
+    <Compile Include="Cv\Forms.cs" />
+    <Compile Include="Cv\Languages.cs" />
+    <Compile Include="GeneratedClasses\CVExams.Generated.cs" />
+    <Compile Include="GeneratedClasses\SentCvs.Generated.cs" />
+    <Compile Include="GeneratedClasses\SurveyResults.Generated.cs" />
+    <Compile Include="Helpers\DateDefinitionHelper.cs" />
+    <Compile Include="Users\SearchHelper.cs" />
+    <Compile Include="SentCvs.cs" />
+    <Compile Include="SurveyItems.cs" />
+    <Compile Include="SurveyResults.cs" />
+    <Compile Include="Surveys.cs" />
+    <Compile Include="Cv\CommunicationInfo.cs" />
+    <Compile Include="Cv\CertificateInfo.cs" />
+    <Compile Include="Cv\InterestedJobPositions.cs" />
+    <Compile Include="Cv\LanguageInfo.cs" />
+    <Compile Include="Cv\Referances.cs" />
+    <Compile Include="Cv\WorkExperiences.cs" />
+    <Compile Include="Cv\CourseInfo.cs" />
+    <Compile Include="Cv\HighSchoolInfo.cs" />
+    <Compile Include="Cv\LicenseInfo.cs" />
+    <Compile Include="Cv\EducationInfo.cs" />
+    <Compile Include="Cv\MasterInfo.cs" />
+    <Compile Include="Cv\PersonalInfo.cs" />
+    <Compile Include="Cv\PreferredWorkPlaces.cs" />
+    <Compile Include="Cv\UnivercityClubs.cs" />
+    <Compile Include="GeneratedClasses\SurveyItems.Generated.cs" />
+    <Compile Include="GeneratedClasses\Surveys.Generated.cs" />
+    <Compile Include="SiteParams.cs" />
+    <Compile Include="CVs.cs" />
+    <Compile Include="FirmMessageTemplates.cs" />
+    <Compile Include="Firms.cs" />
+    <Compile Include="FirmUsers.cs" />
+    <Compile Include="GeneratedClasses\AdvertisementApplications.Generated.cs" />
+    <Compile Include="GeneratedClasses\Advertisements.Generated.cs" />
+    <Compile Include="GeneratedClasses\BannerFiles.Generated.cs" />
+    <Compile Include="GeneratedClasses\Banners.Generated.cs" />
+    <Compile Include="GeneratedClasses\SiteParams.Generated.cs" />
+    <Compile Include="GeneratedClasses\CVCertificateInfo.Generated.cs" />
+    <Compile Include="GeneratedClasses\CVCourseInfo.Generated.cs" />
+    <Compile Include="GeneratedClasses\CVInterestedJobPositons.Generated.cs" />
+    <Compile Include="GeneratedClasses\CVLanguageInfo.Generated.cs" />
+    <Compile Include="GeneratedClasses\CVReferances.Generated.cs" />
+    <Compile Include="GeneratedClasses\CVs.Generated.cs" />
+    <Compile Include="GeneratedClasses\CVUniversityClubs.Generated.cs" />
+    <Compile Include="GeneratedClasses\CVWorkExperiences.Generated.cs" />
+    <Compile Include="GeneratedClasses\CVWorkPlaces.Generated.cs" />
+    <Compile Include="GeneratedClasses\FirmMessageTemplates.Generated.cs" />
+    <Compile Include="GeneratedClasses\Firms.Generated.cs" />
+    <Compile Include="GeneratedClasses\FirmUsers.Generated.cs" />
+    <Compile Include="GeneratedClasses\MainPageContents.Generated.cs" />
+    <Compile Include="GeneratedClasses\SiteContents.Generated.cs" />
+    <Compile Include="GeneratedClasses\UserEmails.Generated.cs" />
+    <Compile Include="GeneratedClasses\UserFollowedFirms.Generated.cs" />
+    <Compile Include="GeneratedClasses\UserFrontPosts.Generated.cs" />
+    <Compile Include="GeneratedClasses\Users.Generated.cs" />
+    <Compile Include="MainPageContents.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiteContents.cs" />
+    <Compile Include="UserEmails.cs" />
+    <Compile Include="UserFollowedFirms.cs" />
+    <Compile Include="UserFrontPosts.cs" />
+    <Compile Include="Users.cs" />
+    <Compile Include="Users\UsersPage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GSUKariyer.COMMON\GSUKariyer.COMMON.csproj">
+      <Project>{35AF797C-4467-479E-A1DE-3B11E69BF164}</Project>
+      <Name>GSUKariyer.COMMON</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GSUKariyer.DAL\GSUKariyer.DAL.csproj">
+      <Project>{52A7D6C0-712A-4929-8E78-311A6F401123}</Project>
+      <Name>GSUKariyer.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
